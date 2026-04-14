@@ -1,0 +1,32 @@
+# Laravel core
+/vendor/
+/node_modules/
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/bootstrap/cache/*
+.env
+.phpunit.result.cache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Git
+.git/
+
+# Large media folders (adjust as needed)
+/public/videos/
+/srcs/
+/public/storage_broken_backup/
+
+# If these are huge source assets, ignore them too:
+/public/images/best-buy/
+/public/images/customer-stories/
+/public/images/hair-accessories/
+
+# Keep only optimized production assets needed for site runtime.
+# If those image folders are required for live site, either keep them (if manageable) or upload separately to storage/CDN.
